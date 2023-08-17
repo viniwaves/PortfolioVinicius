@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Locadora 2000</title>
+    <!-- ? Fav Icon -->
+    <link rel="icon" type="image/png" href="img/icon.png" />
+    <!-- ? Aequivo CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <img class="me-3" src="img/film.svg" alt="Locadora 2000" />
+        <a class="navbar-brand" href="#topo">Locadora 2000</a>
+
+      <div class="collapse navbar-collapse" id="navBarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li>
+                <a class="nav-link active" aria-current="page" href="#tabfilmes"
+                >Filmes Disponiveis</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a 
+                class="nav-link dropdown-toggle" 
+                id="dropGenereos" 
+                role="button" 
+                data-bs-toggle="dropdown" 
+                href="#drop" 
+                aria-expanded="false"
+                >Filmes por Categoria
+            </a>
+            <ul 
+            class="dropdown-menu" 
+            aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#gacao">Ação</a></li>
+                <li><a class="dropdown-item" href="#ganim">Animação</a></li>
+                <li><a class="dropdown-item" href="#groman">Romance</a></li>
+                <li><a class="dropdown-item" href="#gsus">Suspense</a></li>
+            </ul>
+            </li>
+            <li>
+                <a class="nav-link" href="#cadfilmes">Cadastras Filmes</a>
+            </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+    <h1 class="display-1 text-center mb-5">Locadora 2000</h1>
+
+    <div class="container">
+     <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Código</th>
+                <th scope="col">Titulo</th>
+                <th scope="col">Diretor</th>
+                <th scope="col">Lançamento</th>
+                <th scope="col">Generos</th>
+                <th scope="col">Ator/Atriz principal</th>
+                <th scope="col">NotaIMDb</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th class="text-center table-primary" colspan="7" id="gacao">Ação</th>
+            </tr>
+
+            <tr>
+                <th scope="row">1</th>
+                <td scope="row">Homem-Aranha no Aranhaverso</td>
+                <td scope="row"> Peter Ramsey, Rodney Rothman, Bob Persichetti</td>
+                <td scope="row">10 de janeiro de 2019</td>
+                <td scope="row">Ação</td>
+                <td scope="row">Shameik Moore</td>
+                <td scope="row">8,4/10</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td scope="row">Homem-Aranha: Através do Aranhaverso</td>
+                <td scope="row"> Joaquim Dos Santos, Kemp Powers, Justin K. Thompson</td>
+                <td scope="row">1 de junho de 2023</td>
+                <td scope="row">Ação</td>
+                <td scope="row">Shameik Moore</td>
+                <td scope="row">9/10</td>
+            </tr>
+
+            <tr>
+                <th class="text-center table-primary" colspan="7" id="ganim">Animação</th>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td scope="row">Viva – A Vida é uma Festa</td>
+                <td scope="row">Adrian Molina, Lee Unkrich</td>
+                <td scope="row">4 de janeiro de 2018</td>
+                <td scope="row">Animação</td>
+                <td scope="row">Anthony Gonzalez</td>
+                <td scope="row">8,4/10</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td scope="row">Operação Big Hero</td>
+              <td scope="row"> Chris Williams, Don Hall</td>
+              <td scope="row">25 de dezembro de 2014</td>
+              <td scope="row">Animação</td>
+              <td scope="row">Ryan Potter</td>
+              <td scope="row">7,8/10</td>
+          </tr>
+          <tr>
+            <th class="text-center table-primary" colspan="7" id="groman">Romance</th>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td scope="row">Scott Pilgrim contra o Mundo</td>
+          <td scope="row">Edgar Wright</td>
+          <td scope="row">5 de novembro de 2010</td>
+          <td scope="row">Romance</td>
+          <td scope="row">Michael Cera</td>
+          <td scope="row">7,5/10</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td scope="row">Por lugares incriveis</td>
+            <td scope="row">Brett Haley</td>
+            <td scope="row">28 de fevereiro de 2020</td>
+            <td scope="row">Romance</td>
+            <td scope="row">Justice Smith</td>
+            <td scope="row">6,6/10</td>
+            </tr>
+            <th class="text-center table-primary" colspan="7" id="gsus">Suspense</th>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td scope="row">Tubarão</td>
+            <td scope="row"> Joe Alves, Joseph Sargent, Jeannot Szwarc, Steven Spielberg</td>
+            <td scope="row">25 de dezembro de 1975</td>
+            <td scope="row">Suspense</td>
+            <td scope="row">Roy Scheider</td>
+            <td scope="row">8,1/10</td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td scope="row">Anaconda</td>
+              <td scope="row">Luis Llosa</td>
+              <td scope="row">22 de agosto de 1997</td>
+              <td scope="row">Suspense</td>
+              <td scope="row">Jon Voight</td>
+              <td scope="row">4,8/10</td>
+              </tr>
+        </tbody>
+     </table>
+    </div>
+    <div class="mb-5 mt-5 ">
+      <hr class="border-primary border-3 opacity-75" />
+    </div>
+    <div class="container mb-5">
+     <h2 class="text-center mb-4">Cadastro de Filmes</h2>
+
+     <form>
+      <!--  * Cadastro do código e do título -->
+      <div class="row">
+        <div class="mb-1rem col">
+          <label for="codFilm" class="form-label">Código</label>
+          <input type="text" class="form-control" id="codFilm">
+        </div>
+        <div class="mb-3 col">
+          <label for="titleFilm" class="form-label">Título</label>
+          <input type="text" class="form-control" id="titleFilm">
+        </div>
+      </div>
+
+      <!-- * Cadastro de Diretor e de lançamento -->
+      <div class="row">
+        <div class="mb-3 col">
+          <label for="directorFilm" class="form-label">Diretor</label>
+          <input type="text" class="form-control" id="directorFilm">
+        </div>
+
+        <div class="mb-3 col">
+          <label for="yearFilme" class="form-label">Lançamento</label>
+          <input type="text" class="form-control" id="yearFilme" placeholder="DD de MM de AA">
+        </div>
+      </div>
+
+<!-- * Cadastro de Ator/Atriz Principal -->
+<div class="row">
+  <div class="mb-3 col">
+    <label for="actorFilm" class="form-label">Ator/Atriz Principal</label>
+    <input type="text" class="form-control" id="actorFilm">
+  </div>
+
+  <div class="mb-3 col">
+    <label for="imdbFilm" class="form-label">Nota IMDb</label>
+    <input type="text" class="form-control" id="imdbFilm" placeholder="0,0/10">
+  </div>
+</div>
+
+      <!-- * Cadastro de Generos -->
+      <p>Selecione o Genero</p>
+      <div class="row mt-3">
+        <div class="col form-check ms-5">
+          <input 
+          type="radio" 
+          id="radioGAcao" 
+          name="radio" 
+          class="form-check-input" 
+          value="acao">
+          <label 
+          for="radioGAcao"
+          class="form-label">Ação</label>
+        </div>
+        <div class="col form-check">
+          <input type="radio" id="radioGAnim" name="radio" class="form-check-input" value="animacao">
+          <label for="radioGAnim" class="form-label">Animação</label>
+        </div>
+        <div class="col form-check">
+          <input type="radio" id="radioGRoman" name="radio" class="form-check-input" value="romance">
+          <label for="radioGRoman" class="form-label">Romance</label>
+        </div>
+        <div class="col form-check">
+          <input type="radio" id="radioGSus" name="radio" class="form-check-input" value="suspense">
+          <label for="radioGSus" class="form-label">Suspense</label>
+        </div>
+      </div>
+
+      
+      </div>
+
+<!-- * Botão de enviar -->
+
+      <div class="col-auto d-flex justify-content-center">
+        <button type="submit" class="btn btn-primary mt-3">Cadastrar</button>
+      </div>
+     </form>
+    </div>
+  </body>
+</html>
